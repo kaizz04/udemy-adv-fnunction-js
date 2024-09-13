@@ -22,5 +22,16 @@ function greetUser(){
 
 let name = "kaizz";
 
-greetUser();
+// greetUser();
 
+function powerOf(x,n){
+
+    return n ===1 ? x: x * powerOf(x,n-1);
+    // if(n===1){
+    //     return x;
+    // }
+    // return x * powerOf(x,n-1);
+    
+
+}
+console.log(powerOf(2,3));
